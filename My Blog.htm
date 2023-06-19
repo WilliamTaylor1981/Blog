@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html data-lt-installed="true" class=" ygjqiolsq" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="My%20Blog_files/style.css">
+<style><br>                ddg-runtime-checks {<br>                    display: none;<br>                }<br>            </style></head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="https://williamtaylorcybersecurityzone.azurewebsites.net/">
+                WILLIAM TAYLOR'S CYBER SECURITY ZONE
+            </a>
+        </h1>
+        <a href="mailto:cwilliamtaylorjr@gmail.com" class="button">Send Email</a>
+        <a href="https://www.linkedin.com/in/william-taylor-69148117b/" class="linkedin"><img src="My%20Blog_files/LinkedIn_logo_initials.png" alt="LinkedIn logo" title="" style="" height="45px"></a>
+    </header>
+
+
+    <!-- "About" section -->
+    <section id="about" class="intro">
+        <!--Replace with your own image-->
+        <img src="My%20Blog_files/stock-photo-hacking-and-malware-concept-hacker-using-abstra.webp" alt="Robert Smith picture" height="375px;">
+        <h2 class="section-title">Hi, I'm William!</h2>
+        <p>
+            Welcome to my cybersecurity blog! Here, I will discuss topics that affect our everyday lives.
+        </p>
+    </section>
+
+
+    <!-- "Blog Posts" section -->
+    <section id="blog-post-collection" class="blog-posts">
+        <h2 class="section-title">Blog Posts</h2>
+        <article class="blog-post">
+            <img src="My%20Blog_files/Image1.jpg" alt="Image 1">
+
+            <div class="blog">
+                <h3>The New .zip Confusion</h3>
+                <h4>The new .zip domain is ripe for phishing</h4>
+                <p>Recently, Google launched a new TLD (Top Level 
+Domain, which is the suffix of a web address or URL) called .zip and, 
+it's already causing concern in the
+		   cybersecurity community. An attacker could leverage this TLD, in 
+combination with the @ operator and unicode character / to create an
+                   extremely convincing phish for unsuspecting users. An
+ URL usually contain a scheme (like http://), an hostname (like 
+google.com), and sometimes
+		   an userinfo section with a @ operator before the hostname (usually 
+the username and password like username:password@). Everything between 
+the scheme
+                   https:// and the @ operator is treated as user info, 
+and everything after the @ operator is immediately treated as a 
+hostname. Modern broswers
+                   would just uses the hostname if you click on a link 
+containing the user info. But when you add slashes to the URL that comes
+ before the @ operator,
+                   such as https://google.com/search@bing.com, our 
+browser will start to parse everything after the forward slash as the 
+path, and now the bing.com
+                   portion of the url will be ignored, and we will be 
+taken to google.com. The problem here is a link containing a URL with a 
+.zip domain and the @
+	           operator after a forward slash might lead to a website that 
+will automatically download malicious software into your computer if 
+you're clicking on
+                   a link to retrieve what is supposed to be a .zip 
+file. For example, a credibleweb site with a download link to .zip file 
+is usually like 
+                   http://google.com/chrome/chrome.zip. A questionable 
+website would have a link like 
+http://google.com/chrome/alt/@randomfile.zip, which a browser
+                   would interpret the URL as http://randomfile.zip. 
+When looking at the URL or a web address, look for domains containing @ 
+operators followed by .zip
+                   or similar for future reference (like .exe or .msi) 
+and always be careful about downloading files from URLs sent by unknown 
+recipients, and hover over
+                   URLs before clicking to see the expanded URL path.
+                </p>
+            </div>
+        </article>
+
+
+        <!-- second blog post -->
+        <article class="blog-post">
+            <img src="My%20Blog_files/Image2.jpg" alt="Image-2">
+            <div class="blog">
+                <h3>Personal Data of U.S. Government Employees Compromised</h3>
+                <h4>Current and former government employees exposed in data breach</h4>
+                <p>
+                    Recently, the personal information of 237,000 
+current and former federal government employees has been exposed in a 
+data breach at the U.S.
+                    Transportation Department (USDOT). The breach hit 
+systems for processing TRANServe transit benefits that reimburse 
+government employees for
+                    some commuting costs. USDOT is currently 
+investigating the breach and has frozen access to the transit benefit 
+system until it has been secured and
+                    restored. Governments are affected by hacking 
+activites. The motivation of these attacks are usually monetary, 
+political, recognition, or some
+                    form of personal gain. Attacks like these cost 
+taxpayers at least millions of dollars every year. Cybersecurity 
+measures are usually up to par,
+                    although the approriate implementation of these 
+systems vary for each segment of a government. Attacks like these happen
+ more often than you think and
+                    will continue to happen as technology continues to 
+advance.  
+                </p>
+            </div>
+        </article>
+    </section>
+
+
+
+</body></html>
